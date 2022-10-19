@@ -32,12 +32,16 @@ transition: background 0.3s;
 }
 
 .btn {
+    outline: none;
     border: none;
     background: transparent;
     font-size: 30px;
     color: #fff;
 }
 .btn:hover {
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 10px;
     color: #000;
     cursor: pointer;
     transition: color 0.3s;
